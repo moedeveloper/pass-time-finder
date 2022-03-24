@@ -41,4 +41,8 @@ simply run `cd pass-time-finder/src && dotnet run`
 
 and voilaa!! follow instructions, remember to press 2. 1 is for testing!
 
+The application will find the first available time slot for you and fill in all inserted information that you have entered on startup.
+
+The last two steps are done mannually, if you want it automatically simply comment out line 183 and 184 in `SearchMotor`
+
 Note: this shit will work on Windows and linux please feel free to update the documentation if you manage to run it there.
