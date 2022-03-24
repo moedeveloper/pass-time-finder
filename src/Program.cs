@@ -5,18 +5,16 @@ init();
 
 void init()
 {
-    testApp();
+    Console.WriteLine("Press 1 for testing or 2 to run the App: ");
+    var input = Convert.ToInt32(Console.ReadLine());
 
-    // Console.WriteLine("Press 1 for testing or 2 to run the App: ");
-    // var input = Convert.ToInt32(Console.ReadLine());
+    if( input == 1){
+        testApp();
+    }
 
-    // if( input == 1){
-    //     testApp();
-    // }
-
-    // if( input == 2){
-    //     runApp();
-    // }
+    if( input == 2){
+        runApp();
+    }
 
     RunProcess();
 }

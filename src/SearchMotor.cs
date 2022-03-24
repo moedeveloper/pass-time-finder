@@ -178,6 +178,8 @@ public class SearchMotor
             _driver.FindElement(By.XPath("//*[@id=\"Main\"]/form/div[1]/div[5]/div/label[1]")).Click();
             _driver.FindElement(By.XPath("//*[@id=\"Main\"]/form/div[1]/div[5]/div/label[2]")).Click();
             _driver.FindElement(By.XPath("//*[@id=\"Main\"]/form/div[1]/div[6]/div/label[1]")).Click();
+            
+            // last steps!!! they can be done manually!
             //_driver.FindElement(By.XPath("//*[@id=\"Main\"]/form/div[1]/div[6]/div/label[2]")).Click();
             //_driver.FindElement(By.XPath("//*[@id=\"Main\"]/form/div[2]/input")).Click();
 
