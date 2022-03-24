@@ -26,17 +26,17 @@ void testApp(){
     BookingOptions.Lan = "vastragotaland";
     BookingOptions.StartDate = DateTime.Today.ToString("yyyy-M-d");
     BookingOptions.NumberOfPersons = 2;
-    BookingOptions.PhoneNumber = "0705555562";
+    BookingOptions.PhoneNumber = "xxxxxxxxxxx";
 
     _persons = new List<Person>()
     {
         new Person {
-            FirstName = "Sara",
-            LastName = "Charafeddin"
+            FirstName = "xxxxx",
+            LastName = "xxxxx"
         },
         new Person {
-            FirstName = "Celine",
-            LastName = "mortada"
+            FirstName = "xxxx",
+            LastName = "xxxxxx"
         }
     };
 }
@@ -106,6 +106,7 @@ void runApp(){
 
     Console.WriteLine(BookingOptions.StartDate);
 
+    // TODO validate
     while(BookingOptions.EndDate == string.Empty)
     {
         Console.WriteLine($"Enter EndDate ex: 2022-03-25 : ");
