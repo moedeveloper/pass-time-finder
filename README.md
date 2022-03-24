@@ -15,10 +15,10 @@
 
 ### Install homebrew 
 
-[https://brew.sh/index_sv] please follow instructions.
+https://brew.sh/index_sv please follow instructions.
 
-You should have dotnet 6 installed on your machine otherwise follow instruction from bellow link:
-[https://docs.microsoft.com/en-us/dotnet/core/install/macos]
+You should have dotnet 6 installed on your machine otherwise follow instruction from following link:
+https://docs.microsoft.com/en-us/dotnet/core/install/macos
 
 ### Install Selenuim:
 
