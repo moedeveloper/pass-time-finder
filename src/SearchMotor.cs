@@ -8,7 +8,10 @@ public class SearchMotor
     private readonly int _numberOfPersons;
     public SearchMotor(){
         _numberOfPersons = BookingOptions.NumberOfPersons;
-        _driver = new ChromeDriver();
+        var options = new ChromeOptions();
+        options.AddArgument("--disable-blink-features=AutomationControlled");
+        
+        _driver = new ChromeDriver(options: options);
         _driver.Navigate().GoToUrl($"https://bokapass.nemoq.se/Booking/Booking/Index/{BookingOptions.Lan}");
         PreSetup();
     } 

@@ -45,4 +45,6 @@ The application will find the first available time slot for you and fill in all 
 
 The last two steps are done mannually, if you want it automatically simply comment out line 183 and 184 in `SearchMotor`
 
+Remember only available time between today and your entered date will be booked if available.
+
 Note: this shit will work on Windows and linux please feel free to update the documentation if you manage to run it there.
